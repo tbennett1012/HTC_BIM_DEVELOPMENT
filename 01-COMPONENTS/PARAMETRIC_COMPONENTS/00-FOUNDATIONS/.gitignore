@@ -1,0 +1,33 @@
+# FreeCAD autosave files
+*.FCStd1
+*.FCStd2
+*.FCStd~
+*.bak
+
+# Backup copies
+*backup*
+*~*
+
+# Thumbnails
+*.png
+*.jpg
+*.jpeg
+
+# System garbage
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Python bytecode for macros
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE stuff
+.vscode/
+.idea/
+
+# Temporary params exports
+*.tmp
