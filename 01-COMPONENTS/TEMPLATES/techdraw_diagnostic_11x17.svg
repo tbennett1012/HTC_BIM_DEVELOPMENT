@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="431.8mm" height="279.4mm"
+     viewBox="0 0 431.8 279.4" version="1.1">
+  <!-- White page background (exact page size) -->
+  <rect x="0" y="0" width="431.8" height="279.4" fill="#ffffff"/>
+
+  <!-- 0.5 in margin (12.7 mm) border -->
+  <rect x="12.7" y="12.7" width="406.4" height="254.0"
+        fill="none" stroke="#000000" stroke-width="0.5"/>
+
+  <!-- Right title block strip: 3 in (76.2 mm) wide -->
+  <rect x="342.9" y="12.7" width="76.2" height="254.0"
+        fill="none" stroke="#000000" stroke-width="0.35"/>
+
+  <!-- Subdivisions inside title block (simple, evenly spaced) -->
+  <!-- Bottom bands for fields -->
+  <line x1="342.9" y1="226.7" x2="419.1" y2="226.7" stroke="#000" stroke-width="0.3"/>
+  <line x1="342.9" y1="246.7" x2="419.1" y2="246.7" stroke="#000" stroke-width="0.3"/>
+
+  <!-- Labels (placeholders FreeCAD can auto-fill) -->
+  <text x="347.1" y="231.7" font-family="Arial" font-size="5" fill="#000">PROJECT: #Project#</text>
+  <text x="347.1" y="251.7" font-family="Arial" font-size="5" fill="#000">SHEET: #Sheet#   DATE: #Date#</text>
+
+  <!-- Tiny diagnostic markers (no transforms) -->
+  <circle cx="12.7" cy="12.7" r="0.8" fill="#000"/>
+  <circle cx="419.1" cy="12.7" r="0.8" fill="#000"/>
+  <circle cx="12.7" cy="266.7" r="0.8" fill="#000"/>
+  <circle cx="419.1" cy="266.7" r="0.8" fill="#000"/>
+
+  <!-- Simple note (pure text, no tspans) -->
+  <text x="20" y="25" font-family="Arial" font-size="4.5" fill="#000">
+    Diagnostic template: if this loads, SVG plumbing is OK.
+  </text>
+</svg>

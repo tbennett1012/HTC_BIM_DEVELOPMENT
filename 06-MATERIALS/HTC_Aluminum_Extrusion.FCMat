@@ -1,0 +1,22 @@
+Name: HTC Aluminum Extrusion
+Author: Hometown Contractors, Inc.
+License: Proprietary
+Source URL: 
+Source Reference: Internal Standard
+Tags: aluminum, extrusion, HTC
+
+Physical:
+  Density: 2.70 g/cm^3
+  YoungsModulus: 69 GPa
+  PoissonRatio: 0.33
+  TensileStrength: 150 MPa
+  YieldStrength: 110 MPa
+
+Appearance:
+  Color: 0.15, 0.55, 0.35  # green tone for 0.125" wall
+  Roughness: 0.4
+  Transparency: 0.0
+  Metallic: 0.2
+
+Description:
+  HTC standard aluminum extrusion, 6000 series alloy, used for patio covers, screen rooms, and decks.
